@@ -2,11 +2,11 @@
 <head>
     <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8; X-Wap-Proxy-Cookie=none" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>无名轻聊 - Power By 7alk.com</title>
+    <title>psy聊天</title>
     <link type="text/css" href="app/style/chat.css?v=1.2" rel="stylesheet" />
 </head>
 <body>
-<div class="top"><span class="name">无名轻聊</span></div>
+<div class="top"><span class="name">psy聊天</span></div>
 <?php
 require_once 'app/app.php';
 if(empty(@$_COOKIE[KEYS.'_name'])){
@@ -22,7 +22,6 @@ echo '<div class="talk mk-chat-box">
                 <a href="javascript:;" id="send" class="write-link send" onclick="send()">发送</a>
 </div>'; 
 ?>
-<div class="foot"><a href="https://www.4jax.net/">&copy;无名轻聊</a>~聊的畅快！ <a href="https://www.4jax.net/donate.html">捐助</a></div>
 <script src="app/style/jquery.min.js"></script>
 <script src="app/style/chat.min.js"></script>
 </body>
